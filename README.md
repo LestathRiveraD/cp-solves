@@ -12,4 +12,4 @@
 
 6. When unsure about a geedy strategy, try adversarial reasoning to justify it (Div. 2 1093/B)
 
-
+7. Sparse table data structure is optimal when querying idempotent, associative operations on a static array (Leetcode 239 / Sliding Window Maximum) (CSES 1647 Min queries)
