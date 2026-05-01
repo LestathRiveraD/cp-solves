@@ -1,5 +1,8 @@
 # Ideas
 
+### Codeforces: [lestat04](https://codeforces.com/profile/lestat04)
+### Leetcode: [LestathRiveraD](https://leetcode.com/u/LestathRiveraD/)
+
 1. Ask yourself how to solve the problem for some sub-problems in terms of the previous one. (Div. 2 1089/B)
 
 2. GCD(array) = GCD(all adjacent pairs) = GCD(some subarray, another subarray) (Div. 2 1089/C)
