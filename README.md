@@ -20,3 +20,5 @@
 6. When unsure about a geedy strategy, try adversarial reasoning to justify it (Div. 2 1093/B)
 
 7. Sparse table data structure pre computes in O(n log n) with O(1) queries when querying idempotent, associative operations on a static array (Leetcode 239 / Sliding Window Maximum) (CSES 1647 Min queries)
+
+8. For graph/tree problems, if [each node has a binary states] and [constraints between adjacent nodes] => 2 coloring/bipartiteness (Div. 4 1090/F)
