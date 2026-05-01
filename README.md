@@ -6,9 +6,11 @@
 1. Ask yourself how to solve the problem for some sub-problems in terms of the previous one. (Div. 2 1089/B)
 
 2. GCD(array) = GCD(arr[1, k], arr[k + 1, n]) = GCD(all adjacent pairs) (Div. 2 1089/C)
+
     2.1. GCD is associative => use to remove ranges or elements in O(1)
 
 3. GCD(a, b) = GCD(LCM(a, b), b) (Div. 2 1089/C)
+
     3.1 Just memorize this
 
 4. For scheduling problems with multiples/divisibility overlaps, consider using Inclusion-exclusion with LCMs (Educational 188/ C)
