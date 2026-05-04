@@ -28,8 +28,8 @@
 10. Can count leafs of a graph like this:
     ```
     vector<int> deg(n, 0);
-    for (node : nodes) 
-        deg(node.first)++;
-        deg(node.second)++;
+    for (edge : graph) 
+        deg(edge.first)++;
+        deg(edge.second)++;
     ```
-    Then, nodes with degree 1 are leafs
+    In general, just count the degree of each node. Then, nodes with degree 1 are leafs. (Div. 2 915/B) 
