@@ -25,3 +25,11 @@
 
 9. For sliding window problems, consider storing index instead of actuall element for better indexing (Leetcode 239 / Sliding Window Maximum)
 
+10. Can count leafs of a graph like this:
+    ```
+    vector<int> deg(n, 0);
+    for (node : nodes) 
+        deg(node.first)++;
+        deg(node.second)++;
+    ```
+    Then, nodes with degree 1 are leafs
