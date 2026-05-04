@@ -22,3 +22,6 @@
 7. Sparse table data structure pre computes in O(n log n) with O(1) queries when querying idempotent, associative operations on a static array (Leetcode 239 / Sliding Window Maximum) (CSES 1647 Min queries)
 
 8. For graph/tree problems, if [each node has a binary states] and [constraints between adjacent nodes] => 2 coloring/bipartiteness (Div. 4 1090/F)
+
+9. For sliding window problems, consider storing index instead of actuall element for better indexing (Leetcode 239 / Sliding Window Maximum)
+
