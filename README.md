@@ -19,17 +19,19 @@
 
 6. When unsure about a geedy strategy, try adversarial reasoning to justify it (Div. 2 1093/B)
 
-7. Sparse table data structure pre computes in O(n log n) with O(1) queries when querying idempotent, associative operations on a static array (Leetcode 239 / Sliding Window Maximum) (CSES 1647 Min queries)
+7. The sparse table data structure pre computes in O(n log n) with O(1) queries when querying idempotent, associative operations on a static array (Leetcode 239 / Sliding Window Maximum) (CSES 1647 Min queries)
 
-8. For graph/tree problems, if [each node has a binary states] and [constraints between adjacent nodes] => 2 coloring/bipartiteness (Div. 4 1090/F)
+8. For graph/tree problems, if [each node has a binary state] and [constraints between adjacent nodes] => 2 coloring/bipartiteness (Div. 4 1090/F)
 
-9. For sliding window problems, consider storing index instead of actuall element for better indexing (Leetcode 239 / Sliding Window Maximum)
+9. For sliding window problems, consider storing index instead of actual elements for better indexing (Leetcode 239 / Sliding Window Maximum)
 
-10. Can count leafs of a graph like this:
+10. Count leafs of a graph/tree like this:
     ```
     vector<int> deg(n, 0);
     for (edge : graph) 
         deg(edge.first)++;
         deg(edge.second)++;
     ```
-    In general, just count the degree of each node. Then, nodes with degree 1 are leafs. (Div. 2 915/B) 
+    In general, just count the degree of every node. Then, nodes with degree 1 are leaves. (Div. 2 915/B) 
+
+
