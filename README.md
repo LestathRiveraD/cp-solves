@@ -35,3 +35,6 @@
     In general, just count the degree of every node. Then, nodes with degree 1 are leaves. (Div. 2 915/B) 
 
 11. For bit problems, it can be useful to observe the problem in mathematical terms and then try to cancel stuff around. Ex 1090E, take array [a1, a2, a3, ... an] => [(a2 ^ a1), (a3^ a1), ... (an ^ a1)] => [(a3^ a1) ^ (a2 ^ a1)  ... (an ^ a1)^(a2 ^ a1)] = *[a3 ^ a2 ... a^a2]*, so the first n - 2 elements are cancelled (Div. 4 1090E).
+
+12. When leveling an array (making all elements up to position i without increasing the total sum of elements up to i), use the average of all elements up to i (Div. 2 1101/B)
+
